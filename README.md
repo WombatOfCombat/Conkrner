@@ -12,8 +12,6 @@ Designed for a `2440 × 1440` monitor:
 └──────────────────────────────────────────────┴──────────────┘
 ```
 
-The setup uses Waybar's exclusive zone to keep windows out of the Conky area.
-
 ## Requirements
 
 - Wayland compositor
@@ -34,7 +32,7 @@ cp conky/conky-launch.sh ~/.config/conky/
 chmod +x ~/.config/conky/conky-launch.sh
 ```
 
-The resulting layout should be:
+the files sit as such on my device:
 
 ```text
 ~/.config/
@@ -58,10 +56,4 @@ waybar \
 ~/.config/conky/conky-launch.sh
 ```
 
-Add both commands to your compositor's startup configuration to launch them automatically.
-
-## Customization
-
-The included configuration targets a `2440 × 1440` secondary monitor and reserves approximately `488 px`, or 20% of its width.
-
-For other monitor sizes, adjust the Waybar and Conky dimensions or offsets as needed.
+should start automatically on subsequent restarts
