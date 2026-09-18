@@ -1,6 +1,6 @@
 # Conkrner
 
-A small Wayland setup that reserves the rightmost 1/5 of a secondary monitor for Conky, allowing windows to use the remaining 4/5.
+A small Wayland setup that reserves the rightmost 1/5 of a secondary monitor for Conky, restricting other windows to the leftmost 4/5.
 
 Designed for a `2440 × 1440` monitor:
 
