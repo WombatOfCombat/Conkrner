@@ -1,0 +1,11 @@
+{
+    "layer": "background",
+    "position": "right",
+    "output": ["DP-4"],
+    "width": 512,
+    "exclusive": true,
+    "modules-left": [],
+    "modules-center": [],
+    "modules-right": []
+}
+
